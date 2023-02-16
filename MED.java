@@ -1,4 +1,3 @@
-package DP;
 class MED{
   char[][] status;
   int[][] T;

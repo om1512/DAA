@@ -21,7 +21,6 @@ class knapsack{
     knapsack(ArrayList<items> items,int capacity){
         int[][] matrix = new int[items.size()][capacity];
         matrix = DP(items, capacity);
-        System.out.print
         for(int i=0;i<=items.size();i++){
             for(int j=0;j<=capacity;j++){
                 System.out.print(matrix[i][j] + " ");
